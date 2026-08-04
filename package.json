@@ -1,0 +1,17 @@
+{
+  "name": "bot-personalizacao",
+  "version": "1.0.0",
+  "description": "Bot de Personalização",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "deploy": "node handlers/deployCommands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^16.6.1",
+    "fs-extra": "^11.3.2",
+    "uuid": "^11.1.0"
+  }
+}
